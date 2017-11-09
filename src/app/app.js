@@ -5,7 +5,7 @@ var app = express();
 var db = require('./db');
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/lunch.component.html');
   console.log(req.body);
 })
 
